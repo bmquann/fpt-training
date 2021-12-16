@@ -130,7 +130,7 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AdminIndexController</servlet-name>
-        <url-pattern>/admin</url-pattern>
+        <url-pattern>/admin/home</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AdminTraineeController</servlet-name>

@@ -85,7 +85,7 @@ public class AuthController extends HttpServlet {
                 session.setAttribute("userInfor", taikhoan);
                 taikhoan objTK = (taikhoan) session.getAttribute("userInfor");
                 if (objTK.getRole().getId() == 1) {
-                    response.sendRedirect(request.getContextPath() + "/admin");
+                    response.sendRedirect(request.getContextPath() + "/admin/home");
                 } else if (objTK.getRole().getId() == 2) {
                     response.sendRedirect(request.getContextPath() + "/trainer");
                 } else {

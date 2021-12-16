@@ -22,8 +22,8 @@ public class WorkPlanDAO extends AbstractDAO {
                 + " trainer.email as email,trainer.sdt as sdt"
                 + " FROM topic_trainer INNER JOIN topic"
                 + " ON topic_trainer.topic_id=topic.id"
-                + " INNER JOIN trainer ON topic_trainer.trainer_id=trainer.id"
-                + " ORDER BY topic.id DESC";
+                + " INNER JOIN trainer ON topic_trainer.trainer_id=trainer.id";
+//                + " ORDER BY topic.id DESC";
         try {
             st = con.createStatement();
             rs = st.executeQuery(sql);

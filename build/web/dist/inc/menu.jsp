@@ -34,23 +34,23 @@
         </div>
 
         <!-- SidebarSearch Form -->
-         
+
 
         <!-- Sidebar Menu -->
-        <nav class="mt-2">
+        <nav class="mt-2 menu_nav">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
-            <li class="nav-item menu-open">
-                    <a href="<%=request.getContextPath()%>/admin/home" class="nav-link active">
-                        <i class="fa fa-house-damage"></i>
+                <li class="nav-item  ">
+                    <a  href="<%=request.getContextPath()%>/admin/home" class="nav-link  menulink">
+                        <i class="nav-icon fa fa-house-damage"></i>
                         <p>
                             Home
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<%=request.getContextPath()%>/admin/trainee" class="nav-link">
+                    <a href="<%=request.getContextPath()%>/admin/trainee" class="nav-link menulink">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Trainee
@@ -59,7 +59,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<%=request.getContextPath()%>/admin/trainer" class="nav-link">
+                    <a href="<%=request.getContextPath()%>/admin/trainer" class="nav-link menulink">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Trainer
@@ -68,7 +68,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link menulink">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             General Information
@@ -77,19 +77,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<%=request.getContextPath()%>/admin/class" class="nav-link">
+                            <a href="<%=request.getContextPath()%>/admin/class" class="nav-link menulink">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Class</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<%=request.getContextPath()%>/admin/topic" class="nav-link">
+                            <a href="<%=request.getContextPath()%>/admin/topic" class="nav-link menulink">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Topic</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<%=request.getContextPath()%>/admin/category" class="nav-link">
+                            <a href="<%=request.getContextPath()%>/admin/category" class="nav-link menulink">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Category</p>
                             </a>
@@ -97,32 +97,32 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link menulink">
                         <i class="nav-icon fas fa-chart-pie"></i>
                         <p>
-                             Detailed information
+                            Detailed information
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<%=request.getContextPath()%>/admin/workplan" class="nav-link">
+                            <a href="<%=request.getContextPath()%>/admin/workplan" class="nav-link menulink">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Work Plan</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<%=request.getContextPath()%>/admin/classtopic" class="nav-link">
+                            <a href="<%=request.getContextPath()%>/admin/classtopic" class="nav-link menulink">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Class Topic</p>
                             </a>
                         </li>
-                        
+
                     </ul>
                 </li>               
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link menulink">
                         <i class="nav-icon fas fa-table"></i>
                         <p>
                             User
@@ -131,13 +131,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<%=request.getContextPath()%>/admin/account" class="nav-link">
+                            <a href="<%=request.getContextPath()%>/admin/account" class="nav-link menulink">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Account</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<%=request.getContextPath()%>/admin/role" class="nav-link">
+                            <a href="<%=request.getContextPath()%>/admin/role" class="nav-link menulink">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Role</p>
                             </a>
@@ -145,7 +145,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="<%=request.getContextPath()%>/logout" class="nav-link">
+                    <a href="<%=request.getContextPath()%>/logout" class="nav-link menulink">
                         <i class="nav-icon fa fa-sign-out-alt"></i>
                         <p>
                             Log Out
@@ -153,8 +153,22 @@
                     </a>
                 </li>
             </ul>
+
         </nav>
         <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
 </aside>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(function(){
+    var current = location.pathname;
+    $('.menulink').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('active');
+        }
+    })
+})
+</script>

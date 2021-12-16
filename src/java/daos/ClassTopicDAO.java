@@ -20,8 +20,8 @@ public class ClassTopicDAO extends AbstractDAO {
                 + "topic.name AS topicname,topic_class.class_id as classid,"
                 + "class.name as classname FROM topic_class "
                 + "INNER JOIN topic on topic_class.topic_id=topic.id "
-                + "INNER JOIN class on topic_class.class_id=class.id "
-                + "ORDER BY topic.id DESC";
+                + "INNER JOIN class on topic_class.class_id=class.id ";
+//                + "ORDER BY topic.id DESC";
         try {
             st = con.createStatement();
             rs = st.executeQuery(sql);

@@ -125,7 +125,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Thêm sinh viên</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Add New Trainer</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -155,8 +155,8 @@
                         </div>
                         
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
-                            <button type="submit" class="btn btn-primary">Thêm</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+                            <button type="submit" class="btn btn-primary">Add</button>
                         </div>        
                     </form>
                 </div>

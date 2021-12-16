@@ -3,29 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/controllers/TrainerTraineeController.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/daos/TopicDAO.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/constans.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/dist/inc/TrainerMenu.jsp</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/controllers/TraineeController.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/dist/inc/TraineeHeader.jsp</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/controllers/TrainerInfomationController.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/views/TrainerTopic.jsp</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/controllers/TrainerController.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/views/student.jsp</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/controllers/AdminTraineeController.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/views/trainee.jsp</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/controllers/AdminAccountController.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/daos/GiangVienDAO.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/TrainerHomeController.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/views/topic.jsp</file>
             <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/controllers/TrainerHomeController.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/views/TrainerHome.jsp</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/views/TrainerInfo.jsp</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/daos/SinhVienDAO.java</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/web/views/Trainer_Trainee.jsp</file>
-            <file>file:/C:/Users/manhq/OneDrive/Documents/NetBeansProjects/training/src/java/controllers/TrainerTopicController.java</file>
         </group>
     </open-files>
 </project-private>
